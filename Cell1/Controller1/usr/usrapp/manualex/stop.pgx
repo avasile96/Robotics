@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<programList xmlns="ProgramNameSpace">
+  <program name="stop" public="false">
+    <description />
+    <paramSection />
+    <localSection />
+    <source>
+      <code>begin
+//  movej(posicio0, flange, mNomSpeed)
+  movel(stand_by, flange, mNomSpeed)
+  open(flange)
+  putln("Final position accomplished")
+  popUpMsg("MANUALEX IS THE BEST, BITCHES!!!!")
+  resetMotion()
+end
+
+      </code>
+    </source>
+  </program>
+</programList>

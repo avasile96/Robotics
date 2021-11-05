@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dataList xmlns="DataNameSpace" >
+  <aioSection />
+  <boolSection />
+  <configRsSection />
+  <configSection />
+  <configVrbSection />
+  <dioSection />
+  <frameSection>
+    <frame name="dp" public="false" privilege="0" >
+      <fFather alias="" name="world" fatherIndex="0" />
+      <valueFrame index="0" >
+        <tfValue x="295.7" y="-455.414333" z="51.9" rx="-180" ry="0" rz="-89.577769" />
+      </valueFrame>
+    </frame>
+    <frame name="hp" public="false" privilege="0" >
+      <fFather alias="" name="world" fatherIndex="0" />
+      <valueFrame index="0" >
+        <tfValue x="210.32" y="540.28621" z="51.9" rx="180" ry="0" rz="34.138629" />
+      </valueFrame>
+    </frame>
+    <frame name="world" public="false" privilege="0" >
+      <fFather alias="" name="" fatherIndex="0" />
+      <valueFrame index="0" >
+        <tfValue x="0" y="0" z="0" rx="0" ry="0" rz="0" />
+      </valueFrame>
+    </frame>
+  </frameSection>
+  <jointRsSection>
+    <jointRs name="five" public="false" privilege="0" >
+      <valueJointRs index="0" >
+        <jointRsValue j1="0.750175" j2="0.587769" j3="200.1" j4="100.228823" />
+      </valueJointRs>
+    </jointRs>
+    <jointRs name="one" public="false" privilege="0" >
+      <valueJointRs index="0" >
+        <jointRsValue j1="-41.746156" j2="5.987769" j3="200.1" j4="100.228823" />
+      </valueJointRs>
+    </jointRs>
+    <jointRs name="two" public="false" privilege="0" >
+      <valueJointRs index="0" >
+        <jointRsValue j1="52.692027" j2="0.947769" j3="58.9" j4="100.228823" />
+      </valueJointRs>
+    </jointRs>
+  </jointRsSection>
+  <jointSection />
+  <jointVrbSection />
+  <mdescSection>
+    <mdesc name="mNomSpeed" public="true" privilege="0" >
+      <valueMdesc index="0" >
+        <mdescValue accel="100" vel="100" decel="100" tmax="99999" rmax="99999" blend="joint" leave="50" reach="50" />
+      </valueMdesc>
+    </mdesc>
+  </mdescSection>
+  <numSection />
+  <pointRsSection>
+    <pointRs name="deliver_p" public="false" privilege="0" >
+      <pRsFather alias="" name="dp" fatherIndex="0" />
+      <valuePointRs index="0" >
+        <tpRsValue x="74.599041" y="47.065161" z="-97.25" rx="0" ry="0" rz="2.425177" />
+        <cpRsValue shoulder="ssame" />
+      </valuePointRs>
+    </pointRs>
+    <pointRs name="h1" public="false" privilege="0" >
+      <pRsFather alias="" name="dp" fatherIndex="0" />
+      <valuePointRs index="0" >
+        <tpRsValue x="53.075162" y="21.938195" z="45.25" rx="0" ry="0" rz="6.121177" />
+        <cpRsValue shoulder="ssame" />
+      </valuePointRs>
+    </pointRs>
+    <pointRs name="high_p" public="false" privilege="0" >
+      <pRsFather alias="" name="hp" fatherIndex="0" />
+      <valuePointRs index="0" >
+        <tpRsValue x="90.376585" y="-17.605684" z="-134.75" rx="0" ry="0" rz="151.330779" />
+        <cpRsValue shoulder="ssame" />
+      </valuePointRs>
+    </pointRs>
+    <pointRs name="s" public="false" privilege="0" >
+      <pRsFather alias="" name="hp" fatherIndex="0" />
+      <valuePointRs index="0" >
+        <tpRsValue x="21.287423" y="16.073537" z="29.5" rx="0" ry="0" rz="135.184981" />
+        <cpRsValue shoulder="ssame" />
+      </valuePointRs>
+    </pointRs>
+    <pointRs name="stand_by" public="false" privilege="0" >
+      <pRsFather alias="" name="world" fatherIndex="0" />
+      <valuePointRs index="0" >
+        <tpRsValue x="599.898104" y="10.624914" z="200.1" rx="180" ry="0" rz="-101.566767" />
+        <cpRsValue shoulder="ssame" />
+      </valuePointRs>
+    </pointRs>
+  </pointRsSection>
+  <pointSection />
+  <pointVrbSection />
+  <sioSection />
+  <stringSection />
+  <toolSection>
+    <tool name="flange" public="false" privilege="0" >
+      <tFather alias="" name="" fatherIndex="0" />
+      <valueTool index="0" >
+        <ttValue x="0" y="0" z="0" rx="0" ry="0" rz="0" />
+        <io alias="io" name="valve1" ioIndex="0" open="0" close="0" />
+      </valueTool>
+    </tool>
+  </toolSection>
+  <trsfSection />
+</dataList>

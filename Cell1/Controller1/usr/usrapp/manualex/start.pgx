@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<programList xmlns="ProgramNameSpace">
+  <program name="start" public="false">
+    <description />
+    <paramSection />
+    <localSection />
+    <source>
+      <code>begin
+  userPage()
+  cls()
+  putln("Beginning program")
+  enablePower()
+  mNomSpeed.vel = 30
+  movel(stand_by[0], flange[0], mNomSpeed)
+  waitEndMove()
+  close(flange[0])
+  putln("Stand-by position accomplished")
+  open(flange)
+  movel(high_p[0], flange[0], mNomSpeed)
+  waitEndMove()
+  close(flange[0])
+  putln("Pick-up high position accomplished")
+  open(flange)
+  movel(s[0], flange[0], mNomSpeed)
+  waitEndMove()
+  close(flange[0])
+  putln("Scalpel's position accomplished")
+  open(flange)
+  movel(high_p[0], flange[0], mNomSpeed)
+  waitEndMove()
+  close(flange[0])
+  putln("Pick-up high position accomplished")
+  open(flange)
+  movel(deliver_p[0], flange[0], mNomSpeed)
+  waitEndMove()
+  close(flange[0])
+  putln("Delivery position accomplished")
+  open(flange)
+  movel(h1[0], flange[0], mNomSpeed)
+  waitEndMove()
+  close(flange[0])
+  putln("Hand's first position accomplished")
+  open(flange)
+  movel(deliver_p[0], flange[0], mNomSpeed)
+  waitEndMove()
+  close(flange[0])
+  putln("Delivery position accomplished")
+end
+
+      </code>
+    </source>
+  </program>
+</programList>

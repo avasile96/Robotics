@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CellUserOptions>
+  <Controller Name="Controller1">
+    <Application>Disk://manualex/manualex.pjx</Application>
+  </Controller>
+  <Option Name="SynchronizerMode">
+    <Synchronizers>
+      <Synchronizer Controller="Controller1" Mode="Emulator" />
+    </Synchronizers>
+  </Option>
+  <Option Name="3DView">
+    <_3DView Visible="true" />
+  </Option>
+  <Option Name="DataTreeView">
+    <Nodes>
+      <Node Path="Cell1" IsExpanded="true" />
+      <Node Path="Cell1\Controller1" IsExpanded="true" />
+      <Node Path="Cell1\Controller1\manualex" IsExpanded="true" />
+      <Node Path="Cell1\Controller1\manualex\frame" IsExpanded="true" />
+      <Node Path="Cell1\Controller1\manualex\jointRs" IsExpanded="true" />
+      <Node Path="Cell1\Controller1\manualex\pointRs" IsExpanded="true" />
+    </Nodes>
+  </Option>
+  <Option Name="CellExplorer">
+    <Nodes>
+      <Node Path="Cell1" IsExpanded="true" />
+      <Node Path="Cell1\Controller1" IsExpanded="true" />
+      <Node Path="Cell1\Controller1\manualex" IsExpanded="true" />
+    </Nodes>
+  </Option>
+  <Option Name="GeometryView">
+    <Nodes>
+      <Node Path="Cell1" IsExpanded="true" />
+      <Node Path="Cell1\Controller1" IsExpanded="true" />
+      <Node Path="Cell1\Controller1\manualex" IsExpanded="true" />
+      <Node Path="Cell1\Controller1\manualex\world[0]\dp" IsExpanded="true" />
+      <Node Path="Cell1\Controller1\manualex\world[0]\hp" IsExpanded="true" />
+      <Node Path="Cell1\Controller1\manualex\world[0]\stand_by" IsExpanded="true" />
+    </Nodes>
+  </Option>
+</CellUserOptions>
